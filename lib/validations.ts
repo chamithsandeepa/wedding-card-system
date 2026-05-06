@@ -12,7 +12,7 @@ export const contactFormSchema = z.object({
   weddingDate: z.string().min(1, 'Wedding date is required'),
   venue: z.string().max(100, 'Venue must be less than 100 characters').optional().or(z.literal('')),
   package: z.enum(['basic', 'standard', 'premium'], {
-    required_error: 'Please select a package',
+    message: 'Please select a package',
   }),
   phone: z
     .string()
