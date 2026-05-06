@@ -55,8 +55,8 @@ export const INVITATION_DATA: Record<string, InvitationData> = {
     dressCode: 'Lounge Suit / Cocktail',
     templateType: 'minimal',
   },
-  'sandeepa-erandi': {
-    slug: 'sandeepa-erandi',
+  'chamith-sanduni': {
+    slug: 'chamith-sanduni',
     bride: 'Erandi',
     groom: 'Sandeepa',
     date: '2025-12-30',
