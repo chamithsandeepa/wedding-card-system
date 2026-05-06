@@ -19,8 +19,8 @@ export async function POST(request: Request) {
     const apiKey = process.env.RESEND_API_KEY;
     if (apiKey) {
       const emailBody = {
-        from: 'LoveLink Enquiries <noreply@lovelink.lk>',
-        to: ['hello@lovelink.lk'],
+        from: 'LoveLink <onboarding@resend.dev>',
+        to: ['chamithsandeepa321@gmail.com'],
         subject: `New Wedding Invitation Enquiry — ${brideName} & ${groomName}`,
         html: `
           <div style="font-family: Georgia, serif; max-width: 600px; margin: 0 auto; padding: 32px; background: #FDFAF6; border-radius: 12px;">

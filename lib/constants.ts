@@ -19,7 +19,7 @@ export const SITE_CONFIG = {
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://lovelink.lk',
   whatsappNumber: process.env.WHATSAPP_NUMBER || '94710851570',
   whatsappUrl: `https://wa.me/${process.env.WHATSAPP_NUMBER || '94710851570'}`,
-  email: 'hello@lovelink.lk',
+  email: 'chamithsandeepa321@gmail.com',
   instagram: 'https://instagram.com/lovelinklk',
   facebook: 'https://facebook.com/lovelinklk',
   tiktok: 'https://tiktok.com/@lovelinklk',
@@ -58,7 +58,7 @@ export const FOOTER_COLUMNS: FooterColumn[] = [
   {
     title: 'Contact',
     links: [
-      { label: 'hello@lovelink.lk', href: 'mailto:hello@lovelink.lk' },
+      { label: 'chamithsandeepa321@gmail.com', href: 'mailto:chamithsandeepa321@gmail.com' },
       { label: '+94 71 085 1570', href: 'tel:+94710851570' },
       { label: 'Colombo, Sri Lanka', href: '#' },
       { label: 'WhatsApp Us', href: SITE_CONFIG.whatsappUrl },
