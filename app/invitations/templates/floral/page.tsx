@@ -23,7 +23,7 @@ const mockData: InvitationData = {
     'https://images.unsplash.com/photo-1544078751-58fee2d8a03b',
   ],
   musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-  rsvpSheetUrl: 'https://script.google.com/macros/s/example/exec',
+  rsvpSheetUrl: 'https://script.google.com/macros/s/AKfycbxdrpnfHwpxNBNcq9-McdOw0sUJMwossL7oyIxtoDWNepQJYjvtjPmkgLk3_JfVbOW-/exec',
   dressCode: 'Smart Casual / Traditional',
   templateType: 'floral',
 };

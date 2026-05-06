@@ -15,7 +15,7 @@ export const INVITATION_DATA: Record<string, InvitationData> = {
       'https://images.unsplash.com/photo-1511795409834-ef04bbd61622',
     ],
     musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
-    rsvpSheetUrl: 'https://script.google.com/macros/s/example/exec',
+    rsvpSheetUrl: 'https://script.google.com/macros/s/AKfycbxdrpnfHwpxNBNcq9-McdOw0sUJMwossL7oyIxtoDWNepQJYjvtjPmkgLk3_JfVbOW-/exec',
     dressCode: 'Black Tie / Formal',
     templateType: 'classic',
   },

@@ -22,7 +22,7 @@ const mockData: InvitationData = {
     'https://images.unsplash.com/photo-1522673607200-1648832cee98',
   ],
   musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
-  rsvpSheetUrl: 'https://script.google.com/macros/s/example/exec',
+  rsvpSheetUrl: 'https://script.google.com/macros/s/AKfycbxdrpnfHwpxNBNcq9-McdOw0sUJMwossL7oyIxtoDWNepQJYjvtjPmkgLk3_JfVbOW-/exec',
   dressCode: 'Lounge Suit / Cocktail',
   templateType: 'minimal',
 };
