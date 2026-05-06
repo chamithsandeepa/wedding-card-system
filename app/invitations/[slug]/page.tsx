@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title: `${data.bride} & ${data.groom}'s Wedding`,
       description: `Join us for our wedding celebration at ${data.venue}.`,
-      images: data.photos[0] ? [{ url: data.photos[0] }] : [],
+      images: data.photos[0] ? [{ url: data.photos[0] }] : [{ url: '/og-image.png' }],
     },
   };
 }

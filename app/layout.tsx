@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       'Beautiful animated digital wedding invitations with RSVP, music, countdown and more. Delivered in 24 hours as a shareable link.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'LoveLink — Digital Wedding Invitations in Sri Lanka',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: 'LoveLink — Digital Wedding Invitations',
     description:
       'Beautiful animated digital wedding invitations with RSVP, music, countdown and more.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.png',
   },
 };
 
