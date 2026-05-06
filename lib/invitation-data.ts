@@ -1,0 +1,58 @@
+import { InvitationData } from '@/types/invitation';
+
+export const INVITATION_DATA: Record<string, InvitationData> = {
+  'nimal-kumari': {
+    slug: 'nimal-kumari',
+    bride: 'Kumari',
+    groom: 'Nimal',
+    date: '2025-06-14',
+    time: '6:00 PM',
+    venue: 'Shangri-La Colombo',
+    venueAddress: '1, Centre Road, Galle Face, Colombo 02',
+    googleMapsUrl: 'https://goo.gl/maps/example',
+    photos: [
+      'https://images.unsplash.com/photo-1519741497674-611481863552',
+      'https://images.unsplash.com/photo-1511795409834-ef04bbd61622',
+    ],
+    musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+    rsvpSheetUrl: 'https://script.google.com/macros/s/example/exec',
+    dressCode: 'Black Tie / Formal',
+    templateType: 'classic',
+  },
+  'ashan-dilini': {
+    slug: 'ashan-dilini',
+    bride: 'Dilini',
+    groom: 'Ashan',
+    date: '2025-07-20',
+    time: '10:30 AM',
+    venue: 'Cinnamon Lakeside',
+    venueAddress: '115, Sir Chittampalam A. Gardiner Mawatha, Colombo 02',
+    googleMapsUrl: 'https://goo.gl/maps/example',
+    photos: [
+      'https://images.unsplash.com/photo-1583939003579-730e3918a45a',
+      'https://images.unsplash.com/photo-1544078751-58fee2d8a03b',
+    ],
+    musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+    rsvpSheetUrl: 'https://script.google.com/macros/s/example/exec',
+    dressCode: 'Smart Casual / Traditional',
+    templateType: 'floral',
+  },
+  'roshan-nethmi': {
+    slug: 'roshan-nethmi',
+    bride: 'Nethmi',
+    groom: 'Roshan',
+    date: '2025-08-10',
+    time: '5:30 PM',
+    venue: 'Jetwing Blue, Negombo',
+    venueAddress: 'Ethukala, Negombo',
+    googleMapsUrl: 'https://goo.gl/maps/example',
+    photos: [
+      'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8',
+      'https://images.unsplash.com/photo-1522673607200-1648832cee98',
+    ],
+    musicUrl: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+    rsvpSheetUrl: 'https://script.google.com/macros/s/example/exec',
+    dressCode: 'Lounge Suit / Cocktail',
+    templateType: 'minimal',
+  },
+};

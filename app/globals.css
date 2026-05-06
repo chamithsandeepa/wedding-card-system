@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+/* ─── Google Fonts ─────────────────────────────────────────────────────────── */
+/* Loaded via next/font in layout.tsx */
+
+/* ─── Design Tokens ─────────────────────────────────────────────────────────── */
+:root {
+  --color-rose:     #C9A96E;   /* rose gold — primary */
+  --color-blush:    #F4E4E0;   /* blush pink — light bg */
+  --color-ivory:    #FDFAF6;   /* ivory — page background */
+  --color-sage:     #8A9E85;   /* sage green — accent */
+  --color-charcoal: #2C2C2C;   /* headings */
+  --color-muted:    #7A7A7A;   /* body text */
+}
+
+/* ─── Base Styles ────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ─── Typography ─────────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-style: italic;
+  line-height: 1.15;
+  color: var(--color-charcoal);
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ivory);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-rose);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8956a;
+}
+
+/* ─── Focus Ring ─────────────────────────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-rose);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Selection ──────────────────────────────────────────────────────────────── */
+::selection {
+  background: #C9A96E30;
+  color: var(--color-charcoal);
+}
+
+/* ─── Utilities ──────────────────────────────────────────────────────────────── */
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* ─── Animations ─────────────────────────────────────────────────────────────── */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-rose) 0%,
+    #E8C99A 50%,
+    var(--color-rose) 100%
+  );
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Prose / Rich text ──────────────────────────────────────────────────────── */
+.section-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-rose);
+  font-family: var(--font-body);
+  font-style: normal;
+}
