@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { CountdownTimer } from '@/components/invitation/CountdownTimer';
 import { RSVPForm } from '@/components/invitation/RSVPForm';
 import { MusicPlayer } from '@/components/invitation/MusicPlayer';
@@ -29,7 +29,7 @@ const mockData: InvitationData = {
 };
 
 export default function FloralTemplate({ data = mockData }: { data?: InvitationData }) {
-  const container = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -39,7 +39,7 @@ export default function FloralTemplate({ data = mockData }: { data?: InvitationD
     },
   };
 
-  const nameAnimation = {
+  const nameAnimation: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
   };
